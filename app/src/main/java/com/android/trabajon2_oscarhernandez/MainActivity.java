@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.location.Location;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 databaseReference.child("test").child("").setValue(null);
             }
         });
-        Intent INTENT=new Intent(this,Activity2.class);
+        Intent INTENT=new Intent(this,MainActivity2.class);
 
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -118,5 +119,8 @@ public class MainActivity extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
         firebaseDatabase=FirebaseDatabase.getInstance();
         databaseReference=firebaseDatabase.getReference();
+    }
+
+    public void setLocation(Location loc) {
     }
 }
