@@ -1,53 +1,54 @@
 package com.android.trabajon2_oscarhernandez.Clases;
 
 public class test {
-    public String textView;
-    public String textView2;
-    public String textView3;
+    public String tvValor;
+    public String tvDolar;
+    public String tvLista;
 
 
     public test() {
-        this.textView = "";
-        this.textView2 = "";
-        this.textView3 = "";
+        this.tvValor = "";
+        this.tvDolar = "";
+        this.tvLista = "";
     }
 
-    public test(String textView, String textView2, String textView3) {
-        this.textView = textView;
-        this.textView2 = textView2;
-        this.textView3 = textView3;
+    public test(String textView1, String textView2, String textView3) {
+        this.tvValor = textView1;
+        this.tvDolar = textView2;
+        this.tvLista = textView3;
     }
 
-    public String getTextView() {
-        return textView;
+    public String getTextView1() {
+        return tvValor;
     }
 
-    public void setTextView(String textView) {
-        this.textView = textView;
+    public void setTextView1(String textView) {
+        this.tvValor = textView;
     }
 
     public String getTextView2() {
-        return textView2;
+        return tvDolar;
     }
 
     public void setTextView2(String textView2) {
-        this.textView2 = textView2;
+        this.tvDolar = textView2;
     }
 
     public String getTextView3() {
-        return textView3;
+        return tvLista;
     }
 
     public void setTextView3(String textView3) {
-        this.textView3 = textView3;
+        this.tvLista = textView3;
     }
 
     @Override
     public String toString() {
         return "test{" +
-                "textView='" + textView + '\'' +
-                ", textView2='" + textView2 + '\'' +
-                ", textView3='" + textView3 + '\'' +
+                "textView1='" + tvValor + '\'' +
+                ", textView2='" + tvDolar + '\'' +
+                ", textView3='" + tvLista + '\'' +
                 '}';
     }
+
 }

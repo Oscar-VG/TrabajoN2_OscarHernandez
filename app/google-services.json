@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "521976130569",
+    "firebase_url": "https://trabajon2-oscarhernandezdb-default-rtdb.firebaseio.com",
+    "project_id": "trabajon2-oscarhernandezdb",
+    "storage_bucket": "trabajon2-oscarhernandezdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521976130569:android:94feaeb5cdf7c3e58c5cd8",
+        "android_client_info": {
+          "package_name": "com.android.trabajon2_oscarhernandez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521976130569-jm39u0k7uvpfklsnvemuff2b7m8a2odv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzuxE-GwciMan_Yo5thWEYw9lqsyk04E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521976130569-jm39u0k7uvpfklsnvemuff2b7m8a2odv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

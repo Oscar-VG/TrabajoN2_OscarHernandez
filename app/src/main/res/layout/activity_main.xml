@@ -9,31 +9,74 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Valor Dólar"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Valor" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvDolar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dolar"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/etDolar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:visibility="invisible"
+        tools:text="Dolar" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar LISTA" />
+
+    <TextView
+        android:id="@+id/tvLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listado de los distintos valores"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/lvListado"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir otro formulario" />
+
 </LinearLayout>
